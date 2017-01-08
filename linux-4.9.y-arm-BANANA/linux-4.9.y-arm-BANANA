@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 4.9.0-rc1 Kernel Configuration
+# Linux/arm 4.9.1 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_SYS_SUPPORTS_APM_EMULATION=y
@@ -1784,7 +1784,6 @@ CONFIG_I2C_MUX=y
 # CONFIG_I2C_MUX_PCA954x is not set
 # CONFIG_I2C_MUX_REG is not set
 CONFIG_I2C_HELPER_AUTO=y
-CONFIG_I2C_ALGOBIT=y
 
 #
 # I2C Hardware Bus support
@@ -1802,11 +1801,11 @@ CONFIG_I2C_BRCMSTB=y
 # CONFIG_I2C_DESIGNWARE_PLATFORM is not set
 # CONFIG_I2C_EFM32 is not set
 # CONFIG_I2C_EMEV2 is not set
-CONFIG_I2C_GPIO=y
+# CONFIG_I2C_GPIO is not set
 # CONFIG_I2C_IMG is not set
 # CONFIG_I2C_JZ4780 is not set
 # CONFIG_I2C_LPC2K is not set
-CONFIG_I2C_MESON=y
+# CONFIG_I2C_MESON is not set
 # CONFIG_I2C_MT65XX is not set
 # CONFIG_I2C_OCORES is not set
 # CONFIG_I2C_PCA_PLATFORM is not set
@@ -1835,8 +1834,7 @@ CONFIG_I2C_SUN6I_P2WI=y
 # Other I2C/SMBus bus drivers
 #
 # CONFIG_I2C_STUB is not set
-CONFIG_I2C_SLAVE=y
-# CONFIG_I2C_SLAVE_EEPROM is not set
+# CONFIG_I2C_SLAVE is not set
 # CONFIG_I2C_DEBUG_CORE is not set
 # CONFIG_I2C_DEBUG_ALGO is not set
 # CONFIG_I2C_DEBUG_BUS is not set
@@ -1936,7 +1934,6 @@ CONFIG_PTP_1588_CLOCK=y
 # CONFIG_PTP_1588_CLOCK_PCH is not set
 CONFIG_ARCH_HAVE_CUSTOM_GPIO_H=y
 CONFIG_GPIOLIB=y
-CONFIG_GPIO_DEVRES=y
 CONFIG_OF_GPIO=y
 # CONFIG_DEBUG_GPIO is not set
 CONFIG_GPIO_SYSFS=y
@@ -3096,6 +3093,7 @@ CONFIG_SUN4I_TIMER=y
 # CONFIG_FSL_FTM_TIMER is not set
 # CONFIG_OXNAS_RPS_TIMER is not set
 # CONFIG_MTK_TIMER is not set
+# CONFIG_CLKSRC_JCORE_PIT is not set
 # CONFIG_SH_TIMER_CMT is not set
 # CONFIG_SH_TIMER_MTU2 is not set
 # CONFIG_SH_TIMER_TMU is not set
